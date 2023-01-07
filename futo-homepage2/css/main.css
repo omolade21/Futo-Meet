@@ -1,0 +1,450 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button.btn.signup {
+  width: 185px;
+  height: 57px;
+
+  background: #3c6255;
+
+  color: #ffffff;
+  border-right: 1px solid #d0d5dd;
+  border-radius: 20px;
+}
+button.btn.login {
+  width: 185px;
+  height: 57px;
+
+  margin-left: 20px;
+  background: #ffffff;
+
+
+  border-right: 1px solid #d0d5dd;
+  border-radius: 20px;
+}
+button.btn.signup:hover {
+  outline: none;
+}
+.navbar-brand p.futo-logo {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 34px;
+  margin-top: 12px;
+
+  color: #000000;
+}
+
+.navbar-nav .nav-item {
+  margin: 0px 10px;
+}
+.navbar-nav .nav-item a.nav-link {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #000000;
+}
+
+.button-container {
+  display: flex;
+  gap: 2rem;
+  margin: 12rem 0px 0px 2rem;
+}
+
+a.btn {
+  width: 270px;
+  height: 76px;
+  background: #000000;
+  border-radius: 20px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  padding-top: 20px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 20px;
+
+  color: #ffffff;
+}
+
+h1 {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 81px;
+  text-align: center;
+  color: #000000;
+  margin-top: 30px;
+}
+h5 {
+  font-family: "Outfit", sans-serif;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+
+  padding: 10px;
+
+  color: #000000;
+}
+.message-box {
+  margin: 0 auto;
+  width: 320px;
+  height: 96px;
+}
+p .input-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 10px;
+  /* identical to box height, or 125% */
+
+  /* Gray/700 */
+
+  color: #344054;
+}
+input {
+  width: 320px;
+  height: 44px;
+
+  margin-top: -10px;
+  background: #ffffff;
+
+  border: 3px solid #d0d5dd;
+
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+h6.hint {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  /* Gray/500 */
+
+  color: #667085;
+}
+
+.help-1con {
+  position: relative;
+  right: 30px;
+  top: 3px;
+}
+
+.content {
+  width: 392px;
+  height: 390px;
+  background-color: red;
+}
+
+.background-img {
+  background: url(/images/background-image.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  border-radius: 20px;
+}
+h4 {
+  display: flex;
+  flex-direction: column;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+
+  color: #ffffff;
+}
+h4 span {
+  margin: 6px 40px;
+}
+.text-content {
+  position: relative;
+  top: 10rem;
+}
+.card-box {
+  border: none;
+}
+.header {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #ffffff;
+  border: none;
+
+  color: #000000;
+}
+h3 {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 81px;
+
+  color: #000000;
+}
+p.details {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #000000;
+}
+h5.sub-text {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+
+  color: #000000;
+}
+
+p.link {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* identical to box height, or 150% */
+
+  color: #61876e;
+}
+h5.text-details {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  width: 523px;
+  height: 155px;
+  color: #61876e;
+}
+p.team-content {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  /* Gray/900 */
+
+  color: #101828;
+}
+p.team-message {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+
+  text-align: center;
+
+  color: #667085;
+}
+
+a.button {
+  width: 130px;
+  height: 44px;
+  padding: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #ffffff;
+  background: #61876e;
+  border: 1px solid #61876e;
+  /* Shadow/xs */
+
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+h6 {
+  padding-top: 10px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+
+  color: #667085;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  gap: 15rem;
+}
+
+.footer {
+  margin-bottom: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 20px;
+  color: #98a2b3;
+}
+.content-div {
+  padding: 70px 8rem;
+}
+.what-we-do {
+  padding: 0px 50px;
+}
+.accordion-button {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 40px;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  color: #000000;
+}
+.accordion-body {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: transparent;
+  color: #000000;
+}
+@media only screen and (max-width: 500px) {
+  h1 {
+    margin-top: 40px;
+    font-size: 44px;
+    line-height: 51px;
+  }
+  h5 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .background-img {
+    background: url(/futo-homepage/images/background-image.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    border-radius: 20px;
+  }
+  h4 {
+    font-weight: 400;
+    font-size: 50px;
+  }
+  h4 span {
+    margin: 6px 20px;
+  }
+  .text-content {
+    position: relative;
+    top: 8rem;
+  }
+
+  .button-container {
+    display: flex;
+    gap: 1rem;
+    margin: 8rem 0px 0px 2rem;
+  }
+
+  a.btn {
+    width: 180px;
+    height: 60px;
+    margin: 8rem 10px;
+    font-size: 18px;
+  }
+  .button-container {
+    margin: 0px 0px;
+  }
+
+  h3 {
+    font-family: "Outfit", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 51px;
+
+    color: #000000;
+  }
+  p.details {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .navbar-brand p.futo-logo {
+    line-height: 30px;
+    font-size: 20px;
+  }
+  .logo {
+    width: 40px;
+    height: 40px;
+  }
+  img.img {
+    width: 400px;
+    height: 300px;
+  }
+  h5.text-details {
+    margin-top: 30px;
+    font-size: 22px;
+    line-height: 30px;
+
+    width: 350px;
+  }
+  a.button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 140px;
+    height: 44px;
+
+    /* identical to box height, or 150% */
+  }
+  .what-we-do {
+    padding: 20px 8rem;
+  }
+  .accordion-button {
+    font-size: 24px;
+    line-height: 40px;
+    text-align: start;
+    border: none;
+    background-color: transparent;
+    color: #000000;
+  }
+  .accordion-body {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    width: 370px;
+    line-height: 20px;
+    background-color: transparent;
+    color: #000000;
+  }
+}
