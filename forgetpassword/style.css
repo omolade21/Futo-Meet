@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #333;
+}
+.container {
+  width: 1200px;
+  height: 700px;
+  margin: 20px auto;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 5rem;
+  padding-top: 10px;
+}
+
+.logo-text {
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+
+  color: #000000;
+}
+
+.logo-container {
+  display: flex;
+  gap: 5px;
+}
+#already_have_an_account__log_in {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #000000;
+}
+.img-container {
+  margin: 0px 24rem;
+}
+
+.password-recovery h3 {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  text-align: center;
+  margin-top: -40px;
+  color: #000000;
+}
+p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+
+  color: #000000;
+}
+.form-control {
+  outline: none;
+  width: 420px;
+
+  border: none;
+  background: none;
+  border-bottom: 1px solid #989292;
+
+  border-radius: 0px !important;
+}
+.form-control:focus,
+.form-control:hover {
+  border: none;
+  margin: 0 auto;
+  background: none;
+  box-shadow: none;
+  border-bottom: 1px solid #aab7b8;
+}
+.form-group {
+  margin: 50px 20rem;
+}
+.form-content {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #000000;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  background: #61876e;
+  /* Gray/300 */
+
+  border-right: 1px solid #d0d5dd;
+  border-radius: 50px;
+  width: 200px;
+  height: 54px;
+  border: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 20px;
+  color: #fff;
+  transition: background ease-out 3s;
+}
+
+button:hover {
+background: #a2d0b2;
+cursor: pointer;
+
+
+
+}

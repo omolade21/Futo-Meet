@@ -1,0 +1,114 @@
+.meet-container {
+  width: 1440px;
+  height: 884px;
+  background: #373535;
+  margin: 20px 0px;
+  position: relative;
+}
+
+.profile {
+  display: flex;
+  padding: 20px 0px;
+  position: absolute;
+  right: 70px;
+  gap: 5px;
+}
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  background: #f9f5ff;
+
+  border: 4px solid #f4ebff;
+  border-radius: 50%;
+}
+.profile-div {
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+
+  line-height: 24px;
+}
+.profile div.profile-div :nth-of-type(1) {
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+}
+.profile div.profile-div :nth-of-type(2) {
+  font-weight: 300;
+
+  font-size: 14px;
+
+  color: #fff;
+}
+.profile-image{
+  position: absolute;
+  top: 5rem;
+  left: 3rem;
+}
+.profile-image img{
+width: 1200px ;height: 606px;
+}
+.icon-div{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.icons{
+  display: flex;
+  gap: 2rem;
+  position: absolute;
+  bottom: 4rem;
+  left: 4rem;
+}
+.icon{
+  display: flex;
+  gap: 2rem;
+  position: absolute;
+  bottom: 4rem;
+}
+.icon1{
+  right: 2.7rem;
+}
+.button{
+  position: absolute;
+  bottom: 4rem;
+  right: 10rem;
+  height: 55px;
+  width: 200px;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #E91F1F;
+  font-family: 'Outfit' sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 40px;
+}
+.content_img{
+  position: relative;
+}
+.content_img div{
+  position: absolute;
+  top: 30;
+  left: 20;
+  
+  color: white;
+  margin-bottom: 5px;
+  font-family: sans-serif;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear; 
+  transition: visibility 0s, opacity 0.5s linear;
+}
+.content_img:hover{
+  cursor: pointer;
+}
+
+.content_img:hover div{
+width: 150px;
+  padding: 8px 15px;
+  visibility: visible;
+  opacity: 0.7; 
+}
